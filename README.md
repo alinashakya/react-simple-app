@@ -19,6 +19,7 @@ Some useful notes on react :
                         <SearchBar />
                 </div>
                ); 
-}```
+}
+```
 12. npm install --save lodash => used to load page on certain intervals
 13. Call Backs => Used to maintain Parent child relation
