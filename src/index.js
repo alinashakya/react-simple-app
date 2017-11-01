@@ -17,7 +17,7 @@ class App extends Component {
 				videos : [],
 				selectedVideo : null
 			};
-	this.videoSearch('surfboards');
+	this.videoSearch('artificial intelligence');
 	}
 
 	videoSearch(term){
@@ -30,7 +30,7 @@ class App extends Component {
 	}
 
 	render() {
-		const videoSearch = _.debounce((term) => {this.videoSearch(term)},1000);
+		const videoSearch = _.debounce((term) => {this.videoSearch(term)},500);
 
         return (
                 <div>
