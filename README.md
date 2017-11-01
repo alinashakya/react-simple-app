@@ -13,7 +13,8 @@ Some useful notes on react :
 9. npm install --save youtube-api search => install youtube api search
 10. Functional components do not have "state" but class do have "state"
 11. Function based method : 
-```const App = () => {
+```
+const App = () => {
         return (
                 <div>
                         <SearchBar />
